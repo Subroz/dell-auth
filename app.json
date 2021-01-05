@@ -1,0 +1,29 @@
+{
+    "name": "IamSatya DockerApp",
+    "description": "checking heroku docker support",
+    "logo": "https://camo.githubusercontent.com/c9497896ad221daba6cb84f897e7ec00ba46f430/68747470733a2f2f74656c656772612e70682f66696c652f3733636634633632623263363466393831393631652e706e67",
+    "keywords": [
+      "checking",
+      "heroku",
+      "docker"
+    ],
+    "repository": "https://github.com/Mrcool145/cool",
+    "website": "https://github.com/Mrcool145/cool",
+    "success_url": "/",
+    "stack": "container",
+    "env": {
+        "token": {
+            "description":"feed the token to app",
+            "required":true
+        },
+        "username": {
+            "description":"Give Username",
+            "required": false
+        },
+        "password": {
+            "description":"Give Password",
+            "required": false
+        }
+    }
+}
+
